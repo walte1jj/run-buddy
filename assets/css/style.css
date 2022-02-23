@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Helvetica, Arial, sans-serif;
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -20,6 +19,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    display: inline;
 }
 
 header a {
@@ -40,14 +40,6 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
-}
-
-header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-    display: inline;
 }
 
 footer {
@@ -201,14 +193,12 @@ section {
 .trainer img {
     width: 35%;
     float: left;
-    overflow: auto;
 }
 
 .trainer-bio {
     padding: 35px;
     float: left;
     width: 65%;
-    overflow: auto;
 }
 
 .trainer-bio h3 {
@@ -234,7 +224,7 @@ section {
 .text-right {
     text-align: right;
 }
-    /* Reach Out Styles Strart*/
+    /* Reach Out Styles Start*/
 .contact {
     text-align: center;
     background: #024e76;
@@ -263,7 +253,8 @@ section {
     font-size: 32px;
 }
 
-.contact-info p, .contact-info address {
+.contact-info p, 
+.contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 20px;
